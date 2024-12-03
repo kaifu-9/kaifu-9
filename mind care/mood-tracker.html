@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script defer src="face-api.min.js"></script>
+  <script defer src="script1.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 140vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    canvas {
+      position: absolute;
+      top: 250px;
+    }
+
+    .nav-menu {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    background-color: #ffffff;
+    padding: 1em 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .nav-menu button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .nav-menu button:hover {
+    background-color: #aed8b0;
+  }
+  .menu{
+    display: flex;
+    gap: 20px;
+   
+  }
+  .menu li{
+ 
+    color: white;
+  }
+  .menu li a{
+    color: white;
+    text-decoration: none;
+  }
+  .header{
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em 0;
+    width: 100%;
+}
+  </style>
+</head>
+<body>
+  <div class="banner">
+    <div class="header">
+        <h1>Mood Tracker</h1>
+        <p>Your holistic mental health companion</p>
+      
+    </div>
+
+
+    <nav class="nav-menu">
+
+        <ul class="menu">
+          <li><button><a href="index.html">Home</a></button></li>
+        <li><button><a href="mood-tracker.html">mood Tracker</a></button></li>
+       <li><button><a href="guided.html">Guided Meditations</a></button></li> 
+        
+        <li><button><a href="https://www.who.int/">world health</a></button></li>
+      </ul>
+      </nav>
+  <video id="video" width="720" height="560" autoplay muted></video>
+</body>
+</html>
